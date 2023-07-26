@@ -1,0 +1,7 @@
+Keyboard shortcuts compatible with this calculator:
+
+1)Cmd+Del for Mac or Ctrl+backspace for windows: Used to Clear the input
+2)a: This is a shortcut for the saved Answer
+3)Other keys identified by the calculator=
+0,1,2,3,4,5,6,7,8,9, backspace/delete, *, ., /
+

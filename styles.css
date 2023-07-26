@@ -1,0 +1,149 @@
+.vertical-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 55vh;
+    column-gap: 5%;
+    align-items: center;
+    row-gap: 5%;
+    margin-bottom: 1%;
+    padding-right: 10px;
+    
+  
+    
+}
+.row{
+    display: flex;
+    width: 100%;
+    
+    
+    
+}
+.last-row{
+    display: flex;
+    width: 100%;
+}
+
+.last-row-container1{
+    width: 50%;
+    display: flex;
+}
+.button-container, .txt-button-container{
+  
+    flex: 1;
+    margin: 1%;
+}
+
+.num-button{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(81, 81, 81);
+    color: rgb(55, 227, 55);
+    font-family: Arial;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+
+
+}
+.txt-button{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(81, 81, 81);
+    color: rgb(55, 227, 55);
+    font-family: Arial;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+}
+.txt-button:hover, .num-button:hover, .equal-button:hover{
+    background-color: rgb(52, 51, 51);
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding-right: 0;
+    
+}
+
+.equal-button{
+    
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(81, 81, 81);
+    color: rgb(55, 227, 55);
+    font-family: Arial;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+   
+    
+}
+.answer-container{
+    height: 10vh;
+    border: none;
+    flex: 1;
+    margin: 1%;
+    border-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    width: 98%;/* 2% left bec of 1% margin right and 1% margin-left*/
+    height: 7vh;
+    margin: 1%;
+    background-color: rgb(81, 81, 81);
+    color: rgb(55, 227, 55);
+    font-size: 20px;
+    font-family: Arial;
+    caret-color: transparent;/*hides blinking cursor*/
+}
+.answer{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.txt-button-container{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.tooltip{
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    white-space:nowrap ;
+    background-color:rgb(11, 5, 5) ;
+    padding: 10px;
+    bottom: -38px;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0;
+    
+}
+
+.txt-button-container:hover .tooltip{
+    opacity: 1;
+}
+
+
